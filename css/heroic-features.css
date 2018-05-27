@@ -8,6 +8,15 @@ body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+h2{
+    color: #90C5A9;
+}
+
+p{
+    font-size: 16px;
+    text-align: justify;
+}
+
 .hero-spacer {
     margin-top: 50px;
 }
@@ -18,4 +27,32 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+#principles ol{
+    color: #90C5A9;
+    list-style-type: none;
+}
+
+#principles ol li{
+    position: relative;
+    font: bold italic 42px Helvetica, Veranda, Sans-Serif;
+    margin-bottom: 10px;
+}
+
+#principles ol li span{
+    position: absolute;
+}
+
+#principles ol li p{
+    font: 16px Helvetica, Sans-Serif;
+    padding-left: 60px;
+    color: #000000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#prosperity{
+    margin:auto;
+    text-align: center;
 }

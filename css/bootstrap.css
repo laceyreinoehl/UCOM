@@ -11,7 +11,20 @@ html {
 }
 body {
   margin: 0;
+  background-image: url("../images/leaves-background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
 }
+
+.main{
+    background-color: #FBFDFC;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 article,
 aside,
 details,
@@ -1371,6 +1384,7 @@ a.text-danger:hover,
 a.text-danger:focus {
   color: #843534;
 }
+
 .bg-primary {
   color: #fff;
   background-color: #337ab7;
