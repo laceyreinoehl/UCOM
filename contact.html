@@ -76,36 +76,55 @@
 
         <div class = "row">
             <div class = "col-md-6">
+                <h3>Drop Us a Line</h3>
                 <div id = "message_form">
                     <p>Have questions? Want to learn more? We would love to hear from you!</p>
                     <p>Fill out the message form and someone will be in touch.</p>
                     <form  id="contact_form" action="#" method="POST" enctype="multipart/form-data">
                         <input type = "hidden" name = "p" value="doSend"/>
-                        <span class = "label"><label>Your Name *</label></span><br/>
-                        <span><input type = "text" name = "name" id = "name" value=""/></span><br/>
 
-                        <span class = "label"><label>Your Email *</label></span><br/>
-                        <span><input type = "text" name = "email" id = "email" value=""/></span><br/>
+                        <label for = "name">Your Name *</label><br/>
+                        <span>
+                            <input class = "input-lg input-" type = "text" name = "name" id = "name" value="" placeholder="First Last"/>
+                        </span>
+                        <br/>
 
-                        <span class = "label"><label>Subject *</label></span><br/>
-                        <span><input type = "text" name = "subject" id = "subject" value=""/></span><br/>
 
-                        <span class = "label"><label>Message * </label></span><br/>
-                        <span><textarea rows="8" cols="50" name = "message" id = "message"></textarea></span><br/>
+                        <label for = "email">Your Email *</label><br/>
+                        <span>
+                            <input class = "input-lg" type = "text" name = "email" id = "email" value="" placeholder="name@email.com"/>
+                        </span>
+                        <br/>
 
-                        <button type = "submit">Send Us A Message</button>
+
+                        <label for = "subject">Subject *</label><br/>
+                        <span>
+                            <input class = "input-lg" type = "text" name = "subject" id = "subject" value="" placeholder="Subject"/>
+                        </span>
+                        <br/>
+
+                        <label for = "message">Message * </label><br/>
+                        <span>
+                            <textarea class = "input-lg" rows="8" cols="40" name = "message" id = "message" placeholder="I'd like to learn more."></textarea>
+                        </span>
+                        <br/>
+
+                        <button class = "btn btn-primary btn-lg" type = "submit">Send Us A Message</button>
 
                     </form>
                 </div>
             </div>
-            <div class = "col-md-6">
-                <h3>Contact Us Directly</h3>
+            <div class = "col-md-6 text-center">
+                <h3>Reach Out Directly</h3>
                 <h4><a href = "tel:+12565362271">(256) 536.2271</a></h4>
                 <h4><a href = "mailto:unitychurchonthemountain@gmail.com">unitychurchonthemountain@gmail.com</a></h4>
                 <h4>1328 Governors Drive SE Huntsville, AL 35801</h4>
                 <br/>
 
                 <h3>Connect With Us</h3>
+                <a target = "facebook" href = "https://www.facebook.com/Unity-Church-on-the-Mountain-187884391258146/"  title = "Follow us on Facebook"><img src = "images/facebook.png" height = "50" alt = "facebook"/></a>
+                <a target = "you tube" href = "https://www.youtube.com/channel/UCe9R6aEpznIWYrzKbLMhTqg" title = "Watch us on You Tube"/><img src = "images/youtube.png" alt = "You Tube" height = "50"/></a>
+                <a target = "newsletter" href = "https://visitor.r20.constantcontact.com/manage/optin?v=001sWE8kxl6JonNA5SU0PgcEDfq_52p0hidKtACBGv5lR1HxLvrToObs_sYEC7yCi2cCwqC6_0AxiRIiYz9yPbM6nMI0loMCLnloyQ4_jCLUIJ_eDbTOLTWFtgspYO-FXs_8Zh5H2CPoaZDoJut4mspF3omLnzr_nF2p9o8MXOmxWY%3D" title = "Sign Up For our Newsletter"><img src = "images/newsletter.png" height = "50" alt = "newsletter" /></a>
             </div>
         </div>
 
